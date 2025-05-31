@@ -30,7 +30,7 @@ fn main() {
             Ordering::Less => println!("\nToo small!"),
             Ordering::Greater => println!("\nToo big!"),
             Ordering::Equal => {
-            println!("🎉 Correct! The number was: {}\n\n🧮 You guessed it in {} attempts!", secret_number, attempts);
+            println!("\n🎉 Correct! The number was: {}\n🧮 You guessed it in {} attempts!", secret_number, attempts);
                 break;
             }
         }
